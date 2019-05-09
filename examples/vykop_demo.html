@@ -57,7 +57,7 @@
 		});
 		
 		// Sigeom
-		Potree.loadPointCloud("../pointclouds/vykop_demo/cloud.js", "vykop", function(e){
+		Potree.loadPointCloud("../pointclouds/vykop_demo/cloud.js", "Vykop (point cloud)", function(e){
 			let scene = viewer.scene;
 			scene.addPointCloud(e.pointcloud);
 			
@@ -108,7 +108,7 @@
 					let parentNode = "other";
 
 					let bunnyID = tree.jstree('create_node', parentNode, { 
-							text: "Bunny Textured", 
+							text: "Vykop (3D mesh)", 
 							icon: `${Potree.resourcePath}/icons/triangle.svg`,
 							data: object
 						}, 
