@@ -1,7 +1,7 @@
 {
     "version": "1.7",
     "octreeDir": "data",
-    "projection": "",
+    "projection": "EPSG:5514",
     "points": 16441103,
     "boundingBox": {
         "lx": -792727.1660766602,
